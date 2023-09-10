@@ -59,17 +59,17 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10        &kp F11  &kp F12
+ &trans  &trans  &trans   &kp F   &kp P   &kp B            &trans                                                   &none   &kp J   &kp L   &kp U    &kp Y  &kp SEMICOLON   &trans
+ &trans   &kp A   &kp R   &kp S   &kp T  &trans            &trans  &trans  &trans                  &trans  &trans   &none   &kp M   &kp N   &kp E    &kp I          &kp O   &trans
+ &trans  &trans  &trans  &trans   &kp D   &kp V                            &trans                  &trans                   &kp K   &kp H  &trans   &trans         &trans   &trans
+ &tog 0  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans         &trans   &trans
             >;
         };
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans   &none       &none       &none   &none          &none   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &tog 0   &none       &none       &none   &none          &none   &none
   &none         &none         &none         &kp F         &kp P         &kp B            &bootloader                                                                     &bootloader   &kp J       &kp L       &kp U   &kp Y  &kp SEMICOLON   &none
   &none         &kp A         &kp R         &kp S         &kp T         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &kp M       &kp N       &kp E   &kp I          &kp O   &none
   &none         &none         &none         &none         &kp D         &kp V                                  &none                       &none                                       &kp K       &kp H       &none   &none          &none   &none
