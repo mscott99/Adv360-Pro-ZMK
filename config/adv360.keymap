@@ -79,11 +79,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans       &trans          &trans            &trans                &trans  &trans            &trans                                                  &trans  &trans                 &trans             &trans           &trans  &trans  &trans
- &trans     &kp EXCL          &kp AT         &kp POUND            &kp DOLLAR  &trans            &trans                                                  &trans  &trans              &kp CARET           &kp STAR           &trans  &trans  &trans
- &trans  &kp PERCENT  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans  &trans
- &trans    &kp GRAVE       &kp TILDE          &kp PLUS             &kp EQUAL  &trans                            &trans                  &trans                  &trans          &kp BACKSLASH          &kp MINUS   &kp UNDERSCORE  &trans  &trans
- &trans       &trans          &trans            &trans                &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                         &trans             &trans           &trans  &trans  &trans
+ &trans       &trans          &trans            &trans                &trans  &trans            &trans                                                  &trans  &trans                 &trans             &trans            &trans             &trans  &trans
+ &trans     &kp EXCL          &kp AT         &kp POUND            &kp DOLLAR  &trans            &trans                                                  &trans  &trans              &kp CARET           &kp STAR  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
+ &trans  &kp PERCENT  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET   &kp RIGHT_BRACE      &kp BACKSLASH  &trans
+ &trans    &kp GRAVE       &kp TILDE          &kp PLUS             &kp EQUAL  &trans                            &trans                  &trans                  &trans               &kp PLUS          &kp MINUS    &kp UNDERSCORE           &kp PIPE  &trans
+ &trans       &trans          &trans            &trans                &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                         &trans             &trans            &trans             &trans  &trans
             >;
         };
 
