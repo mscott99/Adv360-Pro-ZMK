@@ -47,7 +47,7 @@
     ], [
        "&trans", "&trans", "&trans",         "&trans",             "&trans", "&trans",            "&to 0",                                                                                   "&trans", "&trans",              "&trans",          "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans",         "&trans",             "&trans", "&trans",           "&trans",                                                                                   "&trans", "&trans",              "&trans",          "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&mt D LEFT_ALT", "&mt F LEFT_COMMAND", "&trans",           "&trans",         "&trans", "&trans",                     "&trans",            "&trans",    "&trans", "&trans", "&mt J RIGHT_COMMAND", "&mt K RIGHT_ALT", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&mt LEFT_ALT D", "&mt LEFT_COMMAND F", "&trans",           "&trans",         "&trans", "&trans",                     "&trans",            "&trans",    "&trans", "&trans", "&mt RIGHT_COMMAND J", "&mt RIGHT_ALT K", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans",         "&trans",             "&trans", "&trans",                                       "&trans",                     "&trans",                                   "&trans",              "&trans",          "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans",         "&trans",             "&trans",                      "&to 6", "&sk LEFT_SHIFT", "&trans",                     "&trans", "&sk RIGHT_CONTROL", "&kp SPACE",                        "&trans",          "&trans", "&trans", "&trans", "&trans"
     ], [
