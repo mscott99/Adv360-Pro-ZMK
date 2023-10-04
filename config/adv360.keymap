@@ -109,11 +109,11 @@
 
         layer_Layer__7 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans             &to 0                                                                       &trans      &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                       &trans  &kp K_BACK    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans            &trans  &trans                  &trans             &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                      &trans                  &trans                                 &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                     &to 6  &sk LEFT_COMMAND  &trans                  &trans  &sk RIGHT_CONTROL   &to 5                &trans  &trans     &trans  &trans  &trans
+ &trans  &trans  &trans       &trans         &trans  &trans             &to 0                                                                       &trans      &trans    &trans  &trans     &trans  &trans  &trans
+ &trans  &trans  &trans       &trans         &trans  &trans            &trans                                                                       &trans  &kp K_BACK    &trans  &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans            &trans            &trans  &trans                  &trans             &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+ &trans  &trans  &trans       &trans         &trans  &trans                                      &trans                  &trans                                 &trans    &trans  &trans     &trans  &trans  &trans
+ &trans  &trans  &trans       &trans         &trans                     &to 6  &sk LEFT_COMMAND  &trans                  &trans  &sk RIGHT_CONTROL   &to 5                &trans  &trans     &trans  &trans  &trans
             >;
         };
 
