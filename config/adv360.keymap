@@ -99,11 +99,11 @@
 
         layer_Layer__6 {
             bindings = <
- &tog 0           &trans    &trans                &trans          &trans            &trans             &to 0                                                                   &trans             &trans            &trans                 &trans         &trans         &trans  &trans
- &trans  &kp EXCLAMATION    &kp AT              &kp HASH      &kp DOLLAR       &kp PERCENT            &trans                                                                   &trans          &kp CARET          &kp AMPS               &kp STAR       &kp PIPE          &to 7  &trans
- &trans          &kp ESC   &kp TAB  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_BRACKET            &trans        &trans  &trans                  &trans             &trans  &trans  &kp RIGHT_BRACKET   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS      &kp ENTER  &kp BACKSPACE  &trans
- &trans        &kp EQUAL  &kp PLUS             &kp MINUS       &kp UNDER         &kp GRAVE                                  &trans                  &trans                                     &kp TILDE  &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES  &kp BACKSLASH      &kp SLASH  &trans
- &trans           &trans    &trans                &trans          &trans                               &to 8  &sk LEFT_ALT  &trans                  &trans  &sk RIGHT_CONTROL   &to 5                               &trans                 &trans         &trans         &trans  &trans
+ &tog 0           &trans    &trans          &trans                &trans            &trans             &to 0                                                                   &trans             &trans                 &trans             &trans         &trans         &trans  &trans
+ &trans  &kp EXCLAMATION    &kp AT        &kp HASH            &kp DOLLAR       &kp PERCENT            &trans                                                                   &trans          &kp CARET               &kp AMPS           &kp STAR       &kp PIPE          &to 7  &trans
+ &trans          &kp ESC   &kp TAB  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET            &trans        &trans  &trans                  &trans             &trans  &trans  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS    &kp RIGHT_BRACE      &kp ENTER  &kp BACKSPACE  &trans
+ &trans        &kp EQUAL  &kp PLUS       &kp MINUS             &kp UNDER         &kp GRAVE                                  &trans                  &trans                                     &kp TILDE       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSLASH      &kp SLASH  &trans
+ &trans           &trans    &trans          &trans                &trans                               &to 8  &sk LEFT_ALT  &trans                  &trans  &sk RIGHT_CONTROL   &to 5                                    &trans             &trans         &trans         &trans  &trans
             >;
         };
 
