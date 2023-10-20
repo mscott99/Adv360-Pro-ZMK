@@ -92,7 +92,7 @@
   &trans &trans &trans         &trans             &trans &trans            &to 0                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
   &trans &trans &trans         &trans             &trans &trans           &trans                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
   &trans &lt 7 A &lt 8 S &lt 6 D &hm LEFT_COMMAND F &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_COMMAND J &lt 6 K &lt 8 L &lt 7 SEMICOLON &trans
-  &trans &trans &trans         &trans             &hm LEFT_ALT &trans                                       &trans                     &trans                                   &trans              &hm RIGHT_ALT M          &trans &trans &trans &trans
+  &trans &trans &trans         &trans             &hm LEFT_ALT V &trans                                       &trans                     &trans                                   &kp N              &hm RIGHT_ALT M          &trans &trans &trans &trans
   &trans &trans &trans         &trans             &trans                      &trans  &trans &trans                     &trans &trans &trans &trans          &trans &trans &trans &trans
             >;
         };
