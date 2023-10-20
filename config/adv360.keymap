@@ -43,7 +43,7 @@
       &kp TAB      &kp Q      &kp W           &kp E            &kp R   &kp T                          &none                                                                            &none   &kp Y           &kp U         &kp I     &kp O     &kp P       &kp BSLH
       &kp ESC      &kp A      &kp S           &kp D            &kp F   &kp G                          &none      &kp LEFT_ALT  &kp RCMD                       &kp LCMD      &mo 4      &none   &kp H           &kp J         &kp K     &kp L  &kp SEMI        &kp SQT
       &kp DEL      &kp Z      &kp X           &kp C            &kp V   &kp B                                                    &kp ESC                        &kp TAB                         &kp N           &kp M     &kp COMMA   &kp DOT  &kp FSLH  &kp BACKSPACE
-       &tog 2  &kp GRAVE  &kp EQUAL  &kp LEFT_ARROW  &kp RIGHT_ARROW                    &mt LSHFT BACKSPACE  &kp LEFT_CONTROL     &mo 4                  &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT          &mo 2
+       &tog 2  &kp GRAVE  &kp EQUAL  &kp LEFT_ARROW  &kp RIGHT_ARROW                    &mt LSHFT BACKSPACE  &mt LEFT_CONTROL TAB     &mo 4                  &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT          &mo 2
             >;
         };
 
@@ -93,17 +93,17 @@
   &trans &trans &trans         &trans             &trans &trans           &trans                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
   &trans &lt 7 A &lt 8 S &lt 6 D &hm LEFT_COMMAND F &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_COMMAND J &lt 6 K &lt 8 L &lt 7 SEMICOLON &trans
   &trans &trans &trans         &trans             &hm LEFT_ALT &trans                                       &trans                     &trans                                   &trans              &hm RIGHT_ALT M          &trans &trans &trans &trans
-  &trans &trans &trans         &trans             &trans                      &hm LEFT_SHIFT BACKSPACE &kp ENTER &trans                     &trans &hm RIGHT_CONTROL TAB &kp SPACE                        &trans          &trans &trans &trans &trans
+  &trans &trans &trans         &trans             &trans                      &trans  &trans &trans                     &trans &trans &trans &trans          &trans &trans &trans &trans
             >;
         };
 
         layer_symbols {
             bindings = <
   &tog 0          &trans   &trans               &trans         &trans           &trans            &to 0                                                                              &trans            &trans           &trans                &trans        &trans        &trans &trans
-  &trans &kp EXCLAMATION   &kp AT             &kp HASH     &kp DOLLAR      &kp PERCENT           &trans                                                                              &trans         &kp CARET         &kp AMPS              &kp STAR      &kp PIPE         &to 7 &trans
+  &trans &kp EXCLAMATION   &kp AT             &kp HASH     &kp DOLLAR      &kp PERCENT           &trans                                                                              &trans         &kp CARET         &kp AMPS              &kp STAR      &kp PIPE         &trans &trans
   &trans         &kp N1  &kp N2 &kp LEFT_PARENTHESIS &kp LEFT_BRACE &kp LEFT_BRACKET           &trans       &trans &trans                     &trans            &trans &trans &kp RIGHT_BRACKET  &kp RIGHT_BRACE &kp RIGHT_PARENTHESIS     &kp RIGHT &kp N0 &trans
   &trans       &kp EQUAL &kp PLUS            &kp MINUS      &kp UNDER        &kp GRAVE                                     &trans                     &trans                                        &kp TILDE &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES &kp BACKSLASH     &kp SLASH &trans
-  &trans          &trans   &trans               &trans         &trans                                &to 8 &sk LEFT_ALT &trans                     &trans &sk RIGHT_CONTROL  &to 5                                &trans                &trans        &trans        &trans &trans
+  &trans          &trans   &trans               &trans         &trans                                &trans &trans &trans                     &trans &trans &trans                                &trans                &trans        &trans        &trans &trans
             >;
         };
 
@@ -113,14 +113,14 @@
  &trans  &trans  &trans       &trans         &trans  &trans            &trans                                                                       &trans  &kp K_BACK    &trans  &trans     &trans  &trans  &trans
  &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans            &trans            &trans  &trans                  &trans             &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
  &trans  &trans  &trans       &trans         &trans  &trans                                      &trans                  &trans                                 &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans       &trans         &trans                     &to 6  &sk LEFT_COMMAND  &trans                  &trans  &sk RIGHT_CONTROL   &to 5                &trans  &trans     &trans  &trans  &trans
+ &trans  &trans  &trans       &trans         &trans                     &trans   &trans &trans                  &trans  &trans &trans                &trans  &trans     &trans  &trans  &trans
             >;
         };
 
         layer_numbers {
             bindings = <
  &trans        &trans    &trans      &trans          &trans        &trans             &to 0                                                                       &trans  &trans            &trans        &trans        &trans     &trans  &trans
- &trans        &trans  &kp C_PP  &kp C_PREV      &kp C_NEXT        &trans            &trans                                                                       &trans  &trans            &trans        &trans        &trans      &to 7  &trans
+ &trans        &trans  &kp C_PP  &kp C_PREV      &kp C_NEXT        &trans            &trans                                                                       &trans  &trans            &trans        &trans        &trans      &trans  &trans
  &trans  &kp NUMBER_1    &kp N2      &kp N3          &kp N4  &kp NUMBER_5            &trans            &trans  &trans                  &trans             &trans  &trans  &kp N6      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp N0  &trans
  &trans     &kp EQUAL  &kp PLUS   &kp MINUS  &kp UNDERSCORE        &trans                                      &trans                  &trans                             &trans  &kp SINGLE_QUOTE     &kp COMMA       &kp DOT  &kp SLASH  &trans
  &trans        &trans    &trans      &trans          &trans                           &to 6  &sk LEFT_COMMAND  &trans                  &trans  &sk RIGHT_CONTROL   &to 5                    &trans        &trans        &trans     &trans  &trans
