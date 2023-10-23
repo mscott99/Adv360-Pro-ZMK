@@ -128,9 +128,9 @@
         layer_numbers {
             bindings = <
  &trans        &trans    &trans      &trans          &trans        &trans             &to 0                                                                       &trans  &trans            &trans        &trans        &trans     &trans  &trans
- &trans        &kp C_BRI_UP  &kp C_BRI_DOWN  &kp C_PAGE_UP      &kp C_PAGE_DOWN      &trans            &trans                                                                                       &trans    &kp N7    &kp N8    &kp N9    &kp N0        &trans &trans
+ &trans        &kp C_BRI_UP  &kp C_BRI_DN  &kp PG_UP      &kp PG_DN      &trans            &trans                                                                                       &trans    &kp N7    &kp N8    &kp N9    &kp N0        &trans &trans
  &trans  &hm LEFT_COMMAND N1    &hm LEFT_ALT N2      &hm LCTRL N3          &hm LEFT_SHIFT N4  &trans     &trans            &trans  &trans                  &trans   &trans  &trans    &kp LEFT  &hm RIGHT_SHIFT DOWN  &hm RCTRL UP    &hm RIGHT_ALT RIGHT     &trans &trans
- &trans     &kp C_VOL_DOWN  &kp C_VOL_UP   &kp C_MUTE  &kp N0        &trans                                      &trans                  &trans                             &trans  &kp N5  &kp N6  &trans &kp C_PLAY_PAUSE &trans
+ &trans     &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE  &kp N0        &trans                                      &trans                  &trans                             &trans  &kp N5  &kp N6  &trans &kp C_PLAY_PAUSE &trans
  &trans        &trans    &trans      &trans          &trans                           &trans &trans  &trans                  &trans  &trans &trans   &trans     &trans        &trans     &trans  &trans
             >;
         };
