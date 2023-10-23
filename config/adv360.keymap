@@ -107,7 +107,7 @@
         layer_symbols {
             bindings = <
   &tog 0          &trans   &trans               &trans         &trans           &trans            &to 0                                                                              &trans            &trans           &trans                &trans        &trans        &trans &trans
-  &trans &kp EXCLAMATION   &kp AT             &kp HASH     &kp DOLLAR      &kp PERCENT           &trans                                                                              &trans         &trans  &kp CARET &kp STAR      &kp PIPE         &PERCENT  &trans
+  &trans &kp EXCL   &kp AT             &kp HASH     &kp DOLLAR      &kp PERCENT           &trans                                                                              &trans         &trans  &kp CARET &kp STAR      &kp PIPE         &PERCENT  &trans
   &trans         &hm LEFT_COMMAND TILDE    &hm LEFT_ALT BACKSLASH &lt LCTRL LEFT_PARENTHESIS &lt LEFT_SHIFT LEFT_BRACE &trans            &trans       &trans      &trans  &trans            &trans &trans &trans   &hm RIGHT_SHIFT RIGHT_BRACE &hm RCTRL RIGHT_PARENTHESIS  &hm RIGHT_ALT SINGLE_QUOTE &hm RIGHT_COMMAND DOUBLE_QUOTE &trans
   &trans       &kp EQUAL                   &kp PLUS               &kp MINUS                  &kp LEFT_BRACKET          &trans            &trans       &trans      &trans  &lt 7 RIGHT_BRACE &kp UNDER &kp AMPS    &kp BACKSLASH &trans
   &trans          &trans   &trans               &trans         &trans                                &trans &trans &trans                     &trans &trans &trans                                &trans                &trans        &trans        &trans &trans
