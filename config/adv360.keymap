@@ -95,35 +95,35 @@
             >;
         };
 
-        layer_main {
-            bindings = <
-  &trans &trans &trans         &trans             &trans &trans            &to 0                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
-  &trans &trans &trans         &trans             &trans &trans           &trans                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
-  &trans &hm LEFT_COMMAND A &hm LEFT_ALT S &hm LCTRL D &hm LEFT_SHIFT F &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_SHIFT J &hm RCTRL K &hm RIGHT_ALT L &hm RIGHT_COMMAND SEMICOLON &trans
-  &trans &trans &trans         &trans             &lt 7 V &trans                                       &trans                     &trans                                   &kp N              &lt 7 M          &trans &trans &trans &trans
-  &trans &trans &trans         &trans             &trans                      &trans  &trans &trans                     &trans &trans &trans &trans          &trans &trans &trans &trans
-            >;
-        };
+//        layer_main {
+//            bindings = <
+//  &trans &trans &trans         &trans             &trans &trans            &to 0                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
+//  &trans &trans &trans         &trans             &trans &trans           &trans                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
+//  &trans &hm LEFT_COMMAND A &hm LEFT_ALT S &hm LCTRL D &hm LEFT_SHIFT F &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_SHIFT J &hm RCTRL K &hm RIGHT_ALT L &hm RIGHT_COMMAND SEMICOLON &trans
+//  &trans &trans &trans         &trans             &lt 7 V &trans                                       &trans                     &trans                                   &kp N              &lt 7 M          &trans &trans &trans &trans
+//  &trans &trans &trans         &trans             &trans                      &trans  &trans &trans                     &trans &trans &trans &trans          &trans &trans &trans &trans
+//            >;
+//        };
 
-        layer_symbols {
-            bindings = <
-  &tog 0          &trans   &trans               &trans         &trans           &trans            &to 0                                                                              &trans            &trans           &trans                &trans        &trans        &trans &trans
-  &trans        &kp EXCL   &kp AT             &kp HASH     &kp DOLLAR      &kp PERCENT           &trans                                                                              &trans         &trans  &kp CARET &kp STAR      &kp PIPE         &kp PERCENT  &trans
-  &trans         &hm LEFT_COMMAND TILDE    &hm LEFT_ALT BACKSLASH &hm LCTRL LEFT_PARENTHESIS &hm LEFT_SHIFT LEFT_BRACE &trans            &trans       &trans      &trans  &trans            &trans &trans &trans   &hm RIGHT_SHIFT RIGHT_BRACE &hm RCTRL RIGHT_PARENTHESIS  &hm RIGHT_ALT SINGLE_QUOTE &hm RIGHT_COMMAND DOUBLE_QUOTE &trans
-  &trans       &kp EQUAL                   &kp PLUS               &kp MINUS                  &lt 7 LEFT_BRACKET          &trans            &trans       &trans      &trans  &lt 7 RIGHT_BRACE &kp UNDER &kp AMPS    &kp BACKSLASH &trans
-  &trans          &trans   &trans               &trans         &trans                                &trans &trans &trans                     &trans &trans &trans                                &trans                &trans        &trans        &trans &trans
-            >;
-        };
-
-        layer_numbers {
-            bindings = <
- &trans        &trans    &trans      &trans          &trans        &trans             &to 0                                                                       &trans  &trans            &trans        &trans        &trans     &trans  &trans
- &trans        &kp C_BRI_UP  &kp C_BRI_DOWN  &kp C_PAGE_UP      &kp C_PAGE_DOWN      &trans            &trans                                                                                       &trans    &kp N7    &kp N8    &kp N9    &kp N0        &trans &trans
- &trans  &hm LEFT_COMMAND N1    &hm LEFT_ALT N2      &hm LCTRL N3          &hm LEFT_SHIFT N4  &trans     &trans            &trans  &trans                  &trans   &trans  &trans    &kp LEFT  &hm RIGHT_SHIFT DOWN  &hm RCTRL UP    &hm RIGHT_ALT RIGHT     &trans &trans
- &trans     &kp C_VOL_DOWN  &kp C_VOL_UP   &kp C_MUTE  &kp N0        &trans                                      &trans                  &trans                             &trans  &kp N5  &kp N6  &trans &kp C_PLAY_PAUSE &trans
- &trans        &trans    &trans      &trans          &trans                           &trans &trans  &trans                  &trans  &trans &trans   &trans     &trans        &trans     &trans  &trans
-            >;
-        };
+//        layer_symbols {
+//            bindings = <
+//  &tog 0          &trans   &trans               &trans         &trans           &trans            &to 0                                                                              &trans            &trans           &trans                &trans        &trans        &trans &trans
+//  &trans        &kp EXCL   &kp AT             &kp HASH     &kp DOLLAR      &kp PERCENT           &trans                                                                              &trans         &trans  &kp CARET &kp STAR      &kp PIPE         &kp PERCENT  &trans
+//  &trans         &hm LEFT_COMMAND TILDE    &hm LEFT_ALT BACKSLASH &hm LCTRL LEFT_PARENTHESIS &hm LEFT_SHIFT LEFT_BRACE &trans            &trans       &trans      &trans  &trans            &trans &trans &trans   &hm RIGHT_SHIFT RIGHT_BRACE &hm RCTRL RIGHT_PARENTHESIS  &hm RIGHT_ALT SINGLE_QUOTE &hm RIGHT_COMMAND DOUBLE_QUOTE &trans
+//  &trans       &kp EQUAL                   &kp PLUS               &kp MINUS                  &lt 7 LEFT_BRACKET          &trans            &trans       &trans      &trans  &lt 7 RIGHT_BRACE &kp UNDER &kp AMPS    &kp BACKSLASH &trans
+//  &trans          &trans   &trans               &trans         &trans                                &trans &trans &trans                     &trans &trans &trans                                &trans                &trans        &trans        &trans &trans
+//            >;
+//        };
+//
+//        layer_numbers {
+//            bindings = <
+// &trans        &trans    &trans      &trans          &trans        &trans             &to 0                                                                       &trans  &trans            &trans        &trans        &trans     &trans  &trans
+// &trans        &kp C_BRI_UP  &kp C_BRI_DOWN  &kp C_PAGE_UP      &kp C_PAGE_DOWN      &trans            &trans                                                                                       &trans    &kp N7    &kp N8    &kp N9    &kp N0        &trans &trans
+// &trans  &hm LEFT_COMMAND N1    &hm LEFT_ALT N2      &hm LCTRL N3          &hm LEFT_SHIFT N4  &trans     &trans            &trans  &trans                  &trans   &trans  &trans    &kp LEFT  &hm RIGHT_SHIFT DOWN  &hm RCTRL UP    &hm RIGHT_ALT RIGHT     &trans &trans
+// &trans     &kp C_VOL_DOWN  &kp C_VOL_UP   &kp C_MUTE  &kp N0        &trans                                      &trans                  &trans                             &trans  &kp N5  &kp N6  &trans &kp C_PLAY_PAUSE &trans
+// &trans        &trans    &trans      &trans          &trans                           &trans &trans  &trans                  &trans  &trans &trans   &trans     &trans        &trans     &trans  &trans
+//            >;
+//        };
 
     };
 };
