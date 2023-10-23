@@ -96,15 +96,15 @@
             >;
         };
 
-//        layer_main {
-//            bindings = <
-//  &trans &trans &trans         &trans             &trans &trans            &to 0                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
-//  &trans &trans &trans         &trans             &trans &trans           &trans                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
-//  &trans &hm LEFT_COMMAND A &hm LEFT_ALT S &hm LCTRL D &hm LEFT_SHIFT F &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_SHIFT J &hm RCTRL K &hm RIGHT_ALT L &hm RIGHT_COMMAND SEMICOLON &trans
-//  &trans &trans &trans         &trans             &lt 7 V &trans                                       &trans                     &trans                                   &kp N              &lt 7 M          &trans &trans &trans &trans
-//  &trans &trans &trans         &trans             &trans                      &trans  &trans &trans                     &trans &trans &trans &trans          &trans &trans &trans &trans
-//            >;
-//        };
+        layer_main {
+            bindings = <
+  &trans &trans &trans         &trans             &trans &trans            &to 0                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
+  &trans &trans &trans         &trans             &trans &trans           &trans                                                                                   &trans &trans              &trans          &trans &trans &trans &trans
+  &trans &hm LEFT_COMMAND A &hm LEFT_ALT S &hm LCTRL D &hm LEFT_SHIFT F &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_SHIFT J &hm RCTRL K &hm RIGHT_ALT L &hm RIGHT_COMMAND SEMICOLON &trans
+  &trans &trans &trans         &trans             &lt 7 V &trans                                       &trans                     &trans                                   &kp N              &lt 7 M          &trans &trans &trans &trans
+  &trans &trans &trans         &trans             &trans                      &trans  &trans &trans                     &trans &trans &trans &trans          &trans &trans &trans &trans
+            >;
+        };
 
 //        layer_symbols {
 //            bindings = <
