@@ -109,8 +109,8 @@
             bindings = <
   &tog 0          &trans   &trans               &trans         &trans           &trans            &to 0                                                                              &trans            &trans           &trans                &trans        &trans        &trans &trans
   &trans        &kp EXCL   &kp AT             &kp HASH     &kp DOLLAR      &trans           &trans                                                                              &trans         &trans  &kp CARET &kp STAR      &kp PIPE         &kp PERCENT  &trans
-  &trans &hm LEFT_COMMAND A &hm LEFT_ALT S &hm LCTRL D &hm LEFT_SHIFT F &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_SHIFT J &hm RCTRL K &hm RIGHT_ALT L &hm RIGHT_COMMAND SEMICOLON &trans
-  &trans       &kp EQUAL                   &kp PLUS               &kp MINUS                  &kp LEFT_BRACKET          &trans            &trans       &trans      &trans  &kp RIGHT_BRACE &kp UNDER &kp AMPS    &kp BACKSLASH &trans
+  &trans &hm LEFT_COMMAND TILDE &hm LEFT_ALT BACKSLASH &hm LCTRL LPAR &hm LEFT_SHIFT LBRC &trans           &trans         &trans &trans                     &trans            &trans    &trans &trans &hm RIGHT_SHIFT J &hm RCTRL K &hm RIGHT_ALT L &hm RIGHT_COMMAND SEMICOLON &trans
+  &trans       &kp EQUAL                   &kp PLUS               &kp MINUS                  &kp LBKT          &trans            &trans       &trans      &trans  &kp RBKT &kp UNDER &kp AMPS    &kp BACKSLASH &trans
   &trans          &trans   &trans               &trans         &trans                                &trans &trans &trans                     &trans &trans &trans                                &trans                &trans        &trans        &trans &trans
             >;
         };
