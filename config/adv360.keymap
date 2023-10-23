@@ -110,7 +110,7 @@
   &tog 0          &trans   &trans               &trans         &trans           &trans            &to 0                                                                              &trans            &trans           &trans                &trans        &trans        &trans &trans
   &trans        &kp EXCL   &kp AT             &kp HASH     &kp DOLLAR      &trans           &trans                                                                              &trans         &trans  &kp CARET &kp STAR      &kp PIPE         &kp PERCENT  &trans
   &trans         &hm LEFT_COMMAND TILDE    &hm LEFT_ALT BACKSLASH &hm LCTRL LEFT_PARENTHESIS &hm LEFT_SHIFT LEFT_BRACE &trans            &trans       &trans      &trans  &trans            &trans &trans &trans   &hm RIGHT_SHIFT RIGHT_BRACE &hm RCTRL RIGHT_PARENTHESIS  &hm RIGHT_ALT SINGLE_QUOTE &hm RIGHT_COMMAND DOUBLE_QUOTE &trans
-  &trans       &kp EQUAL                   &kp PLUS               &kp MINUS                  &lt 7 LEFT_BRACKET          &trans            &trans       &trans      &trans  &lt 7 RIGHT_BRACE &kp UNDER &kp AMPS    &kp BACKSLASH &trans
+  &trans       &kp EQUAL                   &kp PLUS               &kp MINUS                  &kp LEFT_BRACKET          &trans            &trans       &trans      &trans  &kp RIGHT_BRACE &kp UNDER &kp AMPS    &kp BACKSLASH &trans
   &trans          &trans   &trans               &trans         &trans                                &trans &trans &trans                     &trans &trans &trans                                &trans                &trans        &trans        &trans &trans
             >;
         };
